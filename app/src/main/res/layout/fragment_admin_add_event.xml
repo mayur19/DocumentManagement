@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/firstText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/xEventnameEditText"
+            android:hint="Enter Event Name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+             />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/secondText"
+            android:layout_below="@id/firstText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/xDescriptionEditText"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/enter_description"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/thirdText"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondText"
+            android:text="Select Parent Event:"/>
+        <Spinner
+            android:id="@+id/xParentEventSpinner"
+            android:layout_width="match_parent"
+            android:layout_below="@id/thirdText"
+            android:layout_height="50dp"
+            android:background="@drawable/backgroud_spinner"
+            android:spinnerMode="dropdown"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_event"
+            android:layout_below="@+id/xParentEventSpinner"
+            android:id="@+id/xSubmitButton"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

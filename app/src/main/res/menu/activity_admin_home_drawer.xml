@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/admin_dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/admin_events"
+            android:icon="@drawable/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/admin_event_list"
+            android:icon="@drawable/lisevent"
+            android:title="Event List" />
+        <item
+            android:id="@+id/admin_user_list"
+            android:icon="@drawable/listser"
+            android:title="User List" />
+        <item
+            android:id="@+id/admin_assign_event"
+            android:icon="@drawable/assignevent"
+            android:title="Assign Event" />
+
+        <item
+            android:id="@+id/admin_userwise_events"
+            android:icon="@drawable/userwisevent"
+            android:title="Userwise Events" />
+        <item
+            android:id="@+id/admin_add_event"
+            android:icon="@drawable/addvent"
+            android:title="Add Event" />
+
+</menu>

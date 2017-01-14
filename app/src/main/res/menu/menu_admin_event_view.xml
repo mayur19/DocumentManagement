@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_search_white_36dp"
+        android:showAsAction="ifRoom"
+        app:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
+
+    <item android:id="@+id/upload_file"
+        android:title="@string/upload_file"
+        android:icon="@drawable/ic_file_upload_white_36dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:showAsAction="ifRoom|collapseActionView"/>
+
+    <item android:id="@+id/add_event"
+        android:title="@string/add_event"
+        android:icon="@drawable/ic_add_circle_outline_white_36dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:showAsAction="ifRoom|collapseActionView"/>
+
+    <item android:id="@+id/delete_event"
+        android:title="@string/delele_event"
+        android:icon="@drawable/ic_delete_white_36dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:showAsAction="ifRoom|collapseActionView"/>
+
+    <item android:id="@+id/logout"
+        android:title="@string/log_out"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_power_settings_new_white_48dp"
+        android:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>

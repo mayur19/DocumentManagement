@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_search_white_36dp"
+        android:showAsAction="collapseActionView|ifRoom"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item android:id="@+id/logout"
+        android:title="@string/log_out"
+        android:showAsAction="ifRoom|collapseActionView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_power_settings_new_white_48dp"/>
+
+    <item android:id="@+id/upload"
+    android:title="@string/upload_file"
+    android:showAsAction="ifRoom|collapseActionView"
+    app:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>
